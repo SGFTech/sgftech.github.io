@@ -29,7 +29,7 @@
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#home" class="nav-logo">
-                <span class="logo-text">SourceGood Food</span>
+                <span class="logo-text">SourceGoodFood</span>
             </a>
             
             <ul class="nav-menu" id="nav-menu">
@@ -38,6 +38,9 @@
                 </li>
                 <li class="nav-item">
                     <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#welcome-generator" class="nav-link">Welcome Generator</a>
                 </li>
                 <li class="nav-item">
                     <a href="#projects" class="nav-link">Projects</a>
@@ -69,8 +72,8 @@
                         with expertise in developing solutions for the food and chemicals industries.
                     </p>
                     <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View Our Solutions</a>
-                        <a href="#contact" class="btn btn-secondary">Start Your Project</a>
+                        <a href="#welcome-generator" class="btn btn-primary">Try Welcome Generator</a>
+                        <a href="#projects" class="btn btn-secondary">View Our Solutions</a>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -152,6 +155,14 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Welcome Generator Section -->
+    <section id="welcome-generator" class="welcome-section">
+        <div class="container">
+            <h2 class="section-title">Personalized Welcome Message Generator</h2>
+            <div id="welcomeGeneratorContainer"></div>
         </div>
     </section>
 
@@ -393,5 +404,17 @@
 
     <!-- JavaScript -->
     <script src="script.js"></script>
+    <script src="welcome-generator.js"></script>
+    <script>
+        // Initialize welcome generator when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.getElementById('welcomeGeneratorContainer');
+            if (container && typeof WelcomeMessageGenerator !== 'undefined') {
+                const generator = new WelcomeMessageGenerator();
+                container.innerHTML = generator.createGeneratorHTML();
+                generator.attachEventListeners();
+            }
+        });
+    </script>
 </body>
 </html>

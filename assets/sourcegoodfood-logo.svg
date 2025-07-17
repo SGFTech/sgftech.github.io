@@ -1,0 +1,59 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Primary gradient matching your brand colors -->
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff8a50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b35;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Accent gradient for highlights -->
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4dd0e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#26c6da;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Text gradient -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2d3748;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a5568;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon container -->
+  <g transform="translate(5,5)">
+    <!-- Outer ring with primary gradient -->
+    <circle cx="25" cy="25" r="22" fill="url(#primaryGradient)" opacity="0.9"/>
+    
+    <!-- Inner white circle -->
+    <circle cx="25" cy="25" r="16" fill="white"/>
+    
+    <!-- Stylized leaf/food icon -->
+    <g transform="translate(25,25)">
+      <!-- Main leaf shape -->
+      <path d="M-8,-10 Q-12,-6 -8,0 Q-4,6 0,8 Q4,6 8,0 Q12,-6 8,-10 Q4,-12 0,-10 Q-4,-12 -8,-10 Z" 
+            fill="url(#primaryGradient)"/>
+      
+      <!-- Accent dot -->
+      <circle cx="3" cy="-3" r="2" fill="url(#accentGradient)"/>
+      
+      <!-- Small decorative elements -->
+      <circle cx="-2" cy="2" r="1" fill="url(#accentGradient)" opacity="0.7"/>
+      <circle cx="6" cy="1" r="0.8" fill="url(#accentGradient)" opacity="0.5"/>
+    </g>
+  </g>
+  
+  <!-- Company name text -->
+  <text x="60" y="25" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="18" font-weight="700" fill="url(#textGradient)">
+    SourceGoodFood
+  </text>
+  
+  <!-- Tagline -->
+  <text x="60" y="40" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="10" font-weight="400" fill="#4a5568" opacity="0.8">
+    Ecommerce & AI Solutions
+  </text>
+  
+  <!-- Decorative underline -->
+  <line x1="60" y1="44" x2="180" y2="44" stroke="url(#accentGradient)" stroke-width="1" opacity="0.6"/>
+</svg>
