@@ -1,14 +1,14 @@
-# SourceGood Food Company Website
+# SourceGoodFood Company Website
 
 ## Overview
 
-This is a professional company website for SourceGood Food Tech Private Limited, built with vanilla HTML, CSS, and JavaScript. The site showcases the company's expertise in ecommerce solutions, AI applications, and backend development specifically for the food and chemicals industries. Features modern design, responsive layout, and smooth navigation.
+This is a professional company website for SourceGoodFood Tech Private Limited, built with vanilla HTML, CSS, and JavaScript. The site showcases the company's expertise in ecommerce solutions, AI applications, and development technologies specifically for the food and chemicals industries. Features modern design, responsive layout, and smooth navigation.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
-Company: SourceGood Food Tech Private Limited (abbreviated as SourceGood Food)
-Focus Areas: Ecommerce (MedusaJS), AI Applications (LlamaIndex, Pydantic AI, GraphRAG), Backend Development
+Company: SourceGoodFood Tech Private Limited (abbreviated as SourceGoodFood)
+Focus Areas: Ecommerce (MedusaJS), AI Applications (LlamaIndex, Pydantic AI, GraphRAG), Development Technologies
 Target Industries: Food, Chemicals
 Contact: Email - customer.support@sourcegoodfood.com, WhatsApp - +91-6364534849, Discord - govdiw#006, GitHub - SGFGOV
 DPIIT Registered Startup: Yes
@@ -91,7 +91,8 @@ Since this is a static website, there's no traditional data flow. However, the i
   - Text: Modern dark navy (#2d3748) for better readability
 - **Gradient Applications**: Added brand gradients to buttons, skill tags, and decorative elements
 - **Improved Visual Hierarchy**: Enhanced contrast and brand consistency throughout
-- **Contact Information**: Updated all company references to "SourceGood Food" for brand consistency
+- **Company Name Correction**: Updated all references to "SourceGoodFood" (one word) throughout the site
+- **Content Accuracy**: Removed references to working backend systems for food industry, focusing on ecommerce and AI expertise
 
 ## Technical Decisions
 
