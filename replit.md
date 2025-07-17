@@ -1,12 +1,16 @@
-# Portfolio Website
+# SourceGood Tech Company Website
 
 ## Overview
 
-This is a static portfolio website built with vanilla HTML, CSS, and JavaScript. It's designed to showcase a software developer's projects and skills through a clean, responsive interface. The site uses modern CSS practices including custom properties (CSS variables) and features smooth scrolling navigation, mobile responsiveness, and professional styling.
+This is a professional company website for SourceGood Tech Private Limited, built with vanilla HTML, CSS, and JavaScript. The site showcases the company's expertise in ecommerce solutions, AI applications, and backend development for niche industries including food, chemicals, consumer products, and edtech. Features modern design, responsive layout, and smooth navigation.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Company: SourceGood Tech Private Limited (abbreviated as SourceGood Tech)
+Focus Areas: Ecommerce (MedusaJS), AI Applications (LlamaIndex, Pydantic AI, GraphRAG), Backend Development
+Target Industries: Food, Chemicals, Consumer Products, EdTech
+Contact: Discord - govdiw#006, GitHub - SGFGOV
 
 ## System Architecture
 
