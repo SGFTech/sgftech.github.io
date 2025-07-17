@@ -1,16 +1,17 @@
-# SourceGood Tech Company Website
+# SourceGood Food Company Website
 
 ## Overview
 
-This is a professional company website for SourceGood Tech Private Limited, built with vanilla HTML, CSS, and JavaScript. The site showcases the company's expertise in ecommerce solutions, AI applications, and backend development for niche industries including food, chemicals, consumer products, and edtech. Features modern design, responsive layout, and smooth navigation.
+This is a professional company website for SourceGood Food Tech Private Limited, built with vanilla HTML, CSS, and JavaScript. The site showcases the company's expertise in ecommerce solutions, AI applications, and backend development specifically for the food and chemicals industries. Features modern design, responsive layout, and smooth navigation.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
-Company: SourceGood Tech Private Limited (abbreviated as SourceGood Tech)
+Company: SourceGood Food Tech Private Limited (abbreviated as SourceGood Food)
 Focus Areas: Ecommerce (MedusaJS), AI Applications (LlamaIndex, Pydantic AI, GraphRAG), Backend Development
-Target Industries: Food, Chemicals, Consumer Products, EdTech
-Contact: Discord - govdiw#006, GitHub - SGFGOV
+Target Industries: Food, Chemicals
+Contact: Email - customer.support@sourcegoodfood.com, WhatsApp - +91-6364534849, Discord - govdiw#006, GitHub - SGFGOV
+DPIIT Registered Startup: Yes
 
 ## System Architecture
 

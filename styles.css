@@ -338,6 +338,54 @@ section {
     font-weight: 500;
 }
 
+/* Certifications Section */
+.certifications-section {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.certifications-title {
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.certification-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(245, 158, 11, 0.1));
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition);
+}
+
+.certification-badge:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.badge-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.badge-content h4 {
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.badge-content p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
 /* Projects Section */
 .projects {
     background-color: var(--bg-primary);
