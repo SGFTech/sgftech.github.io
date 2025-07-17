@@ -710,7 +710,7 @@ section {
 
 .contact-method {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
 }
 
@@ -718,10 +718,41 @@ section {
     font-size: 1.5rem;
     color: var(--accent-color);
     width: 2rem;
+    margin-top: 0.25rem;
+}
+
+.contact-details {
+    flex: 1;
 }
 
 .contact-method h4 {
     margin-bottom: 0.25rem;
+}
+
+.qr-code {
+    margin-top: 0.75rem;
+    text-align: center;
+}
+
+.qr-code img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid var(--bg-secondary);
+    transition: transform 0.2s ease;
+}
+
+.qr-code img:hover {
+    transform: scale(1.1);
+}
+
+.qr-code small {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    opacity: 0.8;
 }
 
 .contact-form {
@@ -761,6 +792,61 @@ section {
 
 .form-group textarea {
     resize: vertical;
+}
+
+/* Captcha Styling */
+.captcha-group {
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    background: rgba(77, 208, 225, 0.05);
+}
+
+.captcha-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.captcha-question {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    background: white;
+    padding: 0.75rem;
+    border-radius: var(--border-radius);
+    border: 2px solid var(--accent-color);
+    flex: 1;
+    text-align: center;
+}
+
+.captcha-container input {
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.refresh-captcha {
+    background: var(--accent-color);
+    border: none;
+    border-radius: var(--border-radius);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.refresh-captcha:hover {
+    background: #3ba8b8;
+    transform: rotate(180deg);
+}
+
+.refresh-captcha i {
+    font-size: 1rem;
 }
 
 /* Footer */

@@ -1,0 +1,69 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .qr-bg { fill: #ffffff; }
+      .qr-fg { fill: #25D366; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="80" height="80" class="qr-bg"/>
+  
+  <!-- QR Code pattern for WhatsApp -->
+  <!-- Corner markers -->
+  <rect x="4" y="4" width="20" height="20" class="qr-fg"/>
+  <rect x="8" y="8" width="12" height="12" class="qr-bg"/>
+  <rect x="12" y="12" width="4" height="4" class="qr-fg"/>
+  
+  <rect x="56" y="4" width="20" height="20" class="qr-fg"/>
+  <rect x="60" y="8" width="12" height="12" class="qr-bg"/>
+  <rect x="64" y="12" width="4" height="4" class="qr-fg"/>
+  
+  <rect x="4" y="56" width="20" height="20" class="qr-fg"/>
+  <rect x="8" y="60" width="12" height="12" class="qr-bg"/>
+  <rect x="12" y="64" width="4" height="4" class="qr-fg"/>
+  
+  <!-- Data pattern -->
+  <rect x="32" y="8" width="4" height="4" class="qr-fg"/>
+  <rect x="40" y="8" width="4" height="4" class="qr-fg"/>
+  <rect x="48" y="8" width="4" height="4" class="qr-fg"/>
+  
+  <rect x="8" y="32" width="4" height="4" class="qr-fg"/>
+  <rect x="16" y="32" width="4" height="4" class="qr-fg"/>
+  <rect x="28" y="32" width="4" height="4" class="qr-fg"/>
+  <rect x="36" y="32" width="4" height="4" class="qr-fg"/>
+  <rect x="44" y="32" width="4" height="4" class="qr-fg"/>
+  <rect x="52" y="32" width="4" height="4" class="qr-fg"/>
+  <rect x="60" y="32" width="4" height="4" class="qr-fg"/>
+  <rect x="68" y="32" width="4" height="4" class="qr-fg"/>
+  
+  <rect x="32" y="36" width="4" height="4" class="qr-fg"/>
+  <rect x="40" y="36" width="4" height="4" class="qr-fg"/>
+  <rect x="48" y="36" width="4" height="4" class="qr-fg"/>
+  
+  <rect x="28" y="44" width="4" height="4" class="qr-fg"/>
+  <rect x="36" y="44" width="4" height="4" class="qr-fg"/>
+  <rect x="44" y="44" width="4" height="4" class="qr-fg"/>
+  <rect x="52" y="44" width="4" height="4" class="qr-fg"/>
+  
+  <rect x="32" y="52" width="4" height="4" class="qr-fg"/>
+  <rect x="40" y="52" width="4" height="4" class="qr-fg"/>
+  <rect x="48" y="52" width="4" height="4" class="qr-fg"/>
+  <rect x="56" y="52" width="4" height="4" class="qr-fg"/>
+  <rect x="64" y="52" width="4" height="4" class="qr-fg"/>
+  <rect x="72" y="52" width="4" height="4" class="qr-fg"/>
+  
+  <rect x="28" y="60" width="4" height="4" class="qr-fg"/>
+  <rect x="32" y="68" width="4" height="4" class="qr-fg"/>
+  <rect x="40" y="68" width="4" height="4" class="qr-fg"/>
+  <rect x="48" y="68" width="4" height="4" class="qr-fg"/>
+  <rect x="56" y="68" width="4" height="4" class="qr-fg"/>
+  <rect x="68" y="68" width="4" height="4" class="qr-fg"/>
+  
+  <!-- WhatsApp icon overlay in center -->
+  <circle cx="40" cy="40" r="8" fill="#25D366"/>
+  <path d="M35,35 Q35,32 38,32 L42,32 Q45,32 45,35 L45,45 Q45,48 42,48 L38,48 Q35,48 35,45 Z" fill="white"/>
+  <circle cx="38" cy="38" r="1.5" fill="#25D366"/>
+  <circle cx="42" cy="38" r="1.5" fill="#25D366"/>
+  <path d="M36,42 Q40,45 44,42" stroke="#25D366" stroke-width="1.5" fill="none"/>
+</svg>

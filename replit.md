@@ -84,6 +84,19 @@ Since this is a static website, there's no traditional data flow. However, the i
 
 ## Recent Changes
 
+### Contact Form Security & QR Codes (July 17, 2025)
+- **Captcha Protection**: Added mathematical captcha to contact form for spam protection
+  - Random arithmetic operations (addition, subtraction, multiplication)
+  - Refresh button with smooth rotation animation
+  - Form validation prevents submission with incorrect answers
+  - Brand-styled captcha container with teal accent colors
+- **QR Code Integration**: Created SVG QR codes for WhatsApp and Discord contacts
+  - Custom-designed QR patterns with brand colors
+  - WhatsApp QR in green (#25D366) with WhatsApp branding
+  - Discord QR in purple (#5865F2) with Discord branding
+  - Hover effects and "Scan to connect" labels
+- **Enhanced Contact Layout**: Improved contact method styling with proper QR code positioning
+
 ### Brand Color Integration (July 17, 2025)
 - **Logo-Based Color Scheme**: Updated CSS color palette to match company logo colors
   - Primary: Warm orange gradient (#ff8a50 to #ff6b35) from logo design
@@ -93,6 +106,7 @@ Since this is a static website, there's no traditional data flow. However, the i
 - **Improved Visual Hierarchy**: Enhanced contrast and brand consistency throughout
 - **Company Name Correction**: Updated all references to "SourceGoodFood" (one word) throughout the site
 - **Content Accuracy**: Removed references to working backend systems for food industry, focusing on ecommerce and AI expertise
+- **GSTIN Display**: Added company GSTIN (27ABGCS2589E1Z2) to footer in brand teal color
 
 ## Technical Decisions
 

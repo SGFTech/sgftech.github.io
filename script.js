@@ -110,11 +110,75 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
 
-    // Contact form handling
+    // Captcha functionality
+    let captchaAnswer = 0;
+
+    function generateCaptcha() {
+        const num1 = Math.floor(Math.random() * 20) + 1;
+        const num2 = Math.floor(Math.random() * 20) + 1;
+        const operations = ['+', '-', '×'];
+        const operation = operations[Math.floor(Math.random() * operations.length)];
+        
+        let question, answer;
+        
+        switch (operation) {
+            case '+':
+                question = `${num1} + ${num2} = ?`;
+                answer = num1 + num2;
+                break;
+            case '-':
+                const larger = Math.max(num1, num2);
+                const smaller = Math.min(num1, num2);
+                question = `${larger} - ${smaller} = ?`;
+                answer = larger - smaller;
+                break;
+            case '×':
+                const smallNum1 = Math.floor(Math.random() * 10) + 1;
+                const smallNum2 = Math.floor(Math.random() * 10) + 1;
+                question = `${smallNum1} × ${smallNum2} = ?`;
+                answer = smallNum1 * smallNum2;
+                break;
+        }
+        
+        captchaAnswer = answer;
+        const captchaQuestion = document.getElementById('captchaQuestion');
+        if (captchaQuestion) {
+            captchaQuestion.textContent = question;
+        }
+    }
+
+    // Initialize captcha
+    generateCaptcha();
+    
+    // Refresh captcha button
+    const refreshBtn = document.getElementById('refreshCaptcha');
+    if (refreshBtn) {
+        refreshBtn.addEventListener('click', function() {
+            generateCaptcha();
+            const captchaInput = document.getElementById('captcha');
+            if (captchaInput) {
+                captchaInput.value = '';
+            }
+        });
+    }
+
+    // Contact form handling with captcha validation
     const contactForm = document.getElementById('contact-form');
     
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
+        
+        // Validate captcha first
+        const captchaInput = document.getElementById('captcha');
+        const userAnswer = parseInt(captchaInput.value);
+        
+        if (userAnswer !== captchaAnswer) {
+            showNotification('Incorrect security answer. Please try again.', 'error');
+            generateCaptcha();
+            captchaInput.value = '';
+            captchaInput.focus();
+            return;
+        }
         
         // Get form data
         const formData = new FormData(contactForm);
@@ -135,8 +199,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Simulate form submission (replace with actual form handling)
-        showNotification('Thank you for your message! I\'ll get back to you soon.', 'success');
+        showNotification('Thank you for your message! We\'ll get back to you soon.', 'success');
         contactForm.reset();
+        generateCaptcha(); // Generate new captcha after successful submission
         
         // In a real implementation, you would send the data to a server
         // Example: sendEmailToServer(name, email, subject, message);

@@ -296,17 +296,25 @@
                         
                         <div class="contact-method">
                             <i class="fab fa-whatsapp"></i>
-                            <div>
+                            <div class="contact-details">
                                 <h4>WhatsApp</h4>
                                 <a href="https://wa.me/916364534849" target="_blank">+91-6364534849</a>
+                                <div class="qr-code">
+                                    <img src="assets/whatsapp-qr.svg" alt="WhatsApp QR Code" title="Scan to chat on WhatsApp">
+                                    <small>Scan to chat</small>
+                                </div>
                             </div>
                         </div>
                         
                         <div class="contact-method">
                             <i class="fab fa-discord"></i>
-                            <div>
+                            <div class="contact-details">
                                 <h4>Discord</h4>
                                 <a href="#" target="_blank">govdiw#006</a>
+                                <div class="qr-code">
+                                    <img src="assets/discord-qr.svg" alt="Discord QR Code" title="Scan to connect on Discord">
+                                    <small>Scan to connect</small>
+                                </div>
                             </div>
                         </div>
                         
@@ -342,7 +350,18 @@
                             <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
                         
-                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div class="form-group captcha-group">
+                            <label for="captcha">Security Check</label>
+                            <div class="captcha-container">
+                                <div class="captcha-question" id="captchaQuestion"></div>
+                                <input type="number" id="captcha" name="captcha" placeholder="Enter answer" required>
+                                <button type="button" class="refresh-captcha" id="refreshCaptcha" title="Refresh">
+                                    <i class="fas fa-sync-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" id="submitBtn">Send Message</button>
                     </form>
                 </div>
             </div>
