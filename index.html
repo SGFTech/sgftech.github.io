@@ -39,9 +39,7 @@
                 <li class="nav-item">
                     <a href="#about" class="nav-link">About</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#welcome-generator" class="nav-link">Welcome Generator</a>
-                </li>
+
                 <li class="nav-item">
                     <a href="#projects" class="nav-link">Projects</a>
                 </li>
@@ -66,14 +64,14 @@
                     <h1 class="hero-title">
                         Welcome to <span class="highlight">SourceGoodFood</span>
                     </h1>
-                    <h2 class="hero-subtitle">Ecommerce & AI Solutions</h2>
+                    <h2 class="hero-subtitle">MedusaJS Ecommerce & AI Solutions</h2>
                     <p class="hero-description">
-                        We are a DPIIT registered startup specializing in cutting-edge ecommerce platforms and intelligent AI applications, 
-                        with expertise in developing solutions for the food and chemicals industries.
+                        We are a DPIIT registered startup specializing in <strong>ultra-modern MedusaJS ecommerce platforms</strong> and intelligent AI applications, 
+                        delivering next-generation headless commerce solutions for the food and chemicals industries.
                     </p>
                     <div class="hero-buttons">
-                        <a href="#welcome-generator" class="btn btn-primary">Try Welcome Generator</a>
-                        <a href="#projects" class="btn btn-secondary">View Our Solutions</a>
+                        <a href="#projects" class="btn btn-primary">Explore MedusaJS Solutions</a>
+                        <a href="#contact" class="btn btn-secondary">Start Your Project</a>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -95,8 +93,8 @@
                     </p>
                     <p class="about-description">
                         As a recognized startup under the Department for Promotion of Industry and Internal Trade, we specialize in 
-                        building modern ecommerce platforms using MedusaJS and developing intelligent AI applications that help businesses 
-                        leverage data and automation to improve their operations.
+                        building <strong>ultra-modern ecommerce platforms using the cutting-edge MedusaJS framework</strong> and developing intelligent AI applications. 
+                        Our expertise in headless commerce architecture and AI automation helps businesses achieve unprecedented scalability and performance.
                     </p>
                 </div>
                 
@@ -117,15 +115,19 @@
                 <div class="skills-section">
                     <h3 class="skills-title">Our Expertise</h3>
                     <div class="skills-grid">
-                        <div class="skill-category">
-                            <h4>Ecommerce Solutions</h4>
+                        <div class="skill-category featured-skill">
+                            <h4>🚀 Ultra-Modern MedusaJS Ecommerce</h4>
                             <div class="skill-tags">
-                                <span class="skill-tag">MedusaJS</span>
-                                <span class="skill-tag">React</span>
-                                <span class="skill-tag">Next.js</span>
+                                <span class="skill-tag featured">MedusaJS v2.0</span>
+                                <span class="skill-tag featured">Headless Commerce</span>
+                                <span class="skill-tag">Multi-Store Setup</span>
+                                <span class="skill-tag">Custom Modules</span>
+                                <span class="skill-tag">Advanced APIs</span>
+                                <span class="skill-tag">React Storefront</span>
+                                <span class="skill-tag">Next.js 14</span>
                                 <span class="skill-tag">TypeScript</span>
-                                <span class="skill-tag">Stripe</span>
-                                <span class="skill-tag">PayPal</span>
+                                <span class="skill-tag">Stripe Integration</span>
+                                <span class="skill-tag">PayPal Integration</span>
                             </div>
                         </div>
                         
@@ -158,23 +160,17 @@
         </div>
     </section>
 
-    <!-- Welcome Generator Section -->
-    <section id="welcome-generator" class="welcome-section">
-        <div class="container">
-            <h2 class="section-title">Personalized Welcome Message Generator</h2>
-            <div id="welcomeGeneratorContainer"></div>
-        </div>
-    </section>
+
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Our Solutions</h2>
+            <h2 class="section-title">MedusaJS Ecommerce Solutions & More</h2>
             
             <!-- Project Filters -->
             <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="ecommerce">Ecommerce</button>
+                <button class="filter-btn active" data-filter="all">All Solutions</button>
+                <button class="filter-btn" data-filter="ecommerce">MedusaJS Ecommerce</button>
                 <button class="filter-btn" data-filter="ai">AI Applications</button>
                 <button class="filter-btn" data-filter="integration">Integrations</button>
             </div>
@@ -199,8 +195,8 @@
                     <div class="project-content">
                         <h3 class="project-title">Medusa MCP Integration</h3>
                         <p class="project-description">
-                            Advanced Model Context Protocol (MCP) integration for MedusaJS, enabling seamless 
-                            AI-powered ecommerce functionalities and intelligent product management.
+                            <strong>Ultra-modern MedusaJS v2.0</strong> integration with Advanced Model Context Protocol (MCP), enabling seamless 
+                            AI-powered ecommerce functionalities, intelligent product management, and next-generation headless commerce capabilities.
                         </p>
                         <div class="project-tech">
                             <span class="tech-tag">MedusaJS</span>
@@ -396,17 +392,6 @@
 
     <!-- JavaScript -->
     <script src="script.js"></script>
-    <script src="welcome-generator.js"></script>
-    <script>
-        // Initialize welcome generator when DOM is loaded
-        document.addEventListener('DOMContentLoaded', function() {
-            const container = document.getElementById('welcomeGeneratorContainer');
-            if (container && typeof WelcomeMessageGenerator !== 'undefined') {
-                const generator = new WelcomeMessageGenerator();
-                container.innerHTML = generator.createGeneratorHTML();
-                generator.attachEventListeners();
-            }
-        });
-    </script>
+
 </body>
 </html>

@@ -84,6 +84,17 @@ Since this is a static website, there's no traditional data flow. However, the i
 
 ## Recent Changes
 
+### MedusaJS Emphasis & Welcome Generator Removal (July 17, 2025)
+- **MedusaJS Spotlight**: Updated all content to highlight ultra-modern MedusaJS ecommerce as key service
+  - Hero section emphasizes "ultra-modern MedusaJS ecommerce platforms"
+  - Featured skills section with enhanced MedusaJS v2.0 technologies
+  - Projects section retitled to "MedusaJS Ecommerce Solutions & More"
+  - Added MedusaJS-specific technologies: Multi-Store Setup, Custom Modules, Advanced APIs
+- **Welcome Generator Removal**: Removed welcome message generator section as requested
+  - Cleaned up navigation menu and hero buttons
+  - Removed welcome-generator.js and related CSS
+  - Updated navigation flow to focus on core services
+
 ### Contact Form Security & QR Codes (July 17, 2025)
 - **Captcha Protection**: Added mathematical captcha to contact form for spam protection
   - Random arithmetic operations (addition, subtraction, multiplication)
