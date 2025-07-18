@@ -8,7 +8,8 @@ This is a professional company website for SourceGoodFood Tech Private Limited, 
 
 Preferred communication style: Simple, everyday language.
 Company: SourceGoodFood Tech Private Limited (abbreviated as SourceGoodFood)
-Focus Areas: Ecommerce (MedusaJS), AI Applications (LlamaIndex, Pydantic AI, GraphRAG), Development Technologies
+Business Model: Consulting and Technical Services (NOT a development agency)
+Focus Areas: MedusaJS Ecommerce Consulting, AI Solutions Implementation, Technical Services
 Target Industries: Food, Chemicals
 Contact: Email - customer.support@sourcegoodfood.com, WhatsApp - +91-6364534849, Discord - govdiw#006, GitHub - SGFGOV
 DPIIT Registered Startup: Yes
