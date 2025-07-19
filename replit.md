@@ -85,6 +85,20 @@ Since this is a static website, there's no traditional data flow. However, the i
 
 ## Recent Changes
 
+### Business Model Repositioning & QR Code Removal (July 18, 2025)
+- **Consulting & Services Focus**: Repositioned entire website to emphasize consulting and technical services (NOT development agency)
+  - Updated hero section: "MedusaJS Ecommerce Consulting & Technical Services"
+  - Changed all content to highlight consulting services rather than development
+  - Modified navigation to "Services" instead of "Projects"
+  - Updated page title and meta descriptions for consulting focus
+- **QR Code Removal**: Removed all QR codes from contact section as requested
+  - Removed WhatsApp QR code and related CSS styling
+  - Cleaned up contact layout for simpler, professional appearance
+- **Content Cleanup**: Removed duplicate content and spacing issues
+  - Fixed navigation spacing and structure
+  - Cleaned up project section layout
+  - Updated business model documentation in user preferences
+
 ### MedusaJS Emphasis & Welcome Generator Removal (July 17, 2025)
 - **MedusaJS Spotlight**: Updated all content to highlight ultra-modern MedusaJS ecommerce as key service
   - Hero section emphasizes "ultra-modern MedusaJS ecommerce platforms"
